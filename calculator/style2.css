@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primarycolor:#000;
+    --secondry-color:#b75111;
+    --text-color:#ffff;
+    --button-color:#625e5e;
+}
+body{
+    background-color: var(--primarycolor);
+    color: var(--text-color);
+}
+.button{
+    width: 50px;
+    height: 20px;
+    border-radius: 40px;
+    background-color: var(--button-color);
+    margin: 5px 0;
+}
+#btn{
+    background-color: var(--secondry-color);
+}
+.container{
+    position: relative;
+    left: 520px;
+    margin: 50px;
+}
+h1{
+    position: relative;
+    left: 525px;
+    margin: 25px;
+    font-size: 50px;
+    color: var(--secondry-color);
+}
+input{
+    width: 230px;
+    margin-bottom: 10px;
+}
